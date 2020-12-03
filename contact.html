@@ -3,6 +3,7 @@
 <head>
 	<title>Surfluff's Site UwU</title>
 	<link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/Surfluff/Surfluff.github.io/master/favicon.ico"/>
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 	<style>
 		footer {
       text-align: center;
@@ -44,14 +45,13 @@
 	<form action="#" method="POST">
       <div class="g-recaptcha" data-sitekey="6LePFPgZAAAAAGXKyjfaG_KelTSAsvMPSDqv73Yt" data-callback="enableBtn"></div>
       <br/>
-      <input id="button1" type="submit" value="Submit" disabled="disabled">
     </form>
     <script>
       function enableBtn(){
         document.getElementById("button1").disabled = false;
       }
    </script>
-  <button type="submit">Send</button>
+  <button type="submit" id="button1" disabled="disabled">Send</button>
 </form><footer>Surfluff UwU<br> <a href="https://surfluff.github.io/" style="color:white">surfluff.github.io</a></footer>
 </body>
 </html>
