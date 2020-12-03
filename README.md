@@ -1,2 +1,2 @@
 # Surfluff.github.io
-Idk
+This is my website, so yeah
