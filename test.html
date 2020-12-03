@@ -5,9 +5,14 @@
   </head>
   <body>
     <form action="?" method="POST">
-      <div class="g-recaptcha" data-sitekey="6LePFPgZAAAAAGXKyjfaG_KelTSAsvMPSDqv73Yt"></div>
+      <div class="g-recaptcha" data-sitekey="6LePFPgZAAAAAGXKyjfaG_KelTSAsvMPSDqv73Yt" data-callback="enableBtn"></div>
       <br/>
-      <input type="submit" value="Submit">
+      <input type="submit" value="Submit" disabled="disabled">
     </form>
+    <script>
+      function enableBtn(){
+        document.getElementById("button1").disabled = false;
+      }
+   </script>
   </body>
 </html>
