@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Surfluff's Site UwU - Commissions</title>
+	<link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/Surfluff/Surfluff.github.io/master/favicon.ico"/>
+	<style>
+		.rainbow {
+  			background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  			background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  			color:transparent;
+  			-webkit-background-clip: text;
+  			background-clip: text;
+		}
+		a{
+			color:white;
+		}
+	</style>
+</head>
+<body style="background-color:black;color:white">
+	<h2><span class="rainbow">Commissions</span></h2>
+	<p>If you want to commission me, I'll take it. My rate is 15$ for a headshot and 20$ for half body (I don't do full body yet)
+  <br>All commissions are fully coloured and shaded to your heart's desire 
+  <br>Contact me <a href="contact.html">here</p></p>
+</body>
+</html>
