@@ -1,13 +1,13 @@
 <html>
   <head>
-    <title>reAPTCHA demo: Simple page</title>
+    <title>reCAPTCHA demo: Simple page</title>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   </head>
   <body>
     <form action="?" method="POST">
-      <div class="g-recaptcha" data-sitekey="6LePFPgZAAAAAGXKyjfaG_KelTSAsvMPSDqv73Yt" data-callback="enableBtn()"></div>
+      <div class="g-recaptcha" data-sitekey="6LePFPgZAAAAAGXKyjfaG_KelTSAsvMPSDqv73Yt" data-callback="enableBtn"></div>
       <br/>
-      <input type="submit" value="Submit" disabled="disabled">
+      <input id="button1" type="submit" value="Submit" disabled="disabled">
     </form>
     <script>
       function enableBtn(){
