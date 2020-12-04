@@ -16,13 +16,32 @@
       padding: 3px;
       background-color: #333333;
       color: white;
-      position: fixed;
       bottom: 0;
 			width: 100%;
     }
 		a{
 			color:white;
 		}
+		div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
 	</style>
 </head>
 <body style="background-color:black;color:white">
@@ -44,6 +63,57 @@
   <img src="art/SylvByMe.png" style="width:30%">
   <div class="text"></div>
 <br>
+	<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="art/Topaz.png">
+      <img src="art/Topaz.png" alt="Topaz Headhsot" width="600" height="400">
+    </a>
+    <div class="desc">A Headshot Of My Sona Topaz</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="art/TopazFullBody.png">
+      <img src="art/TopazFullBody.png" alt="Full Body Topaz" width="600" height="400">
+    </a>
+    <div class="desc">My Sona Topaz</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="art/Avali%20Full%20Body.png">
+      <img src="art/Avali%20Full%20Body.png" alt="Pixel Art Avali" width="600" height="400">
+    </a>
+    <div class="desc">Pixel Art Avali</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="art/1%20Bit%20Test.gif">
+      <img src="art/1%20Bit%20Test.gif" alt="1 Bit Kraken" width="600" height="400">
+    </a>
+    <div class="desc">1 Bit Kraken</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="art/SylvByMe.png">
+      <img src="art/SylvByMe.png" alt="Sylveon Pixel Art" width="600" height="400">
+    </a>
+    <div class="desc">Sylveon Pixel Art</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
 		<footer>Surfluff UwU<br> <a href="https://surfluff.github.io/">surfluff.github.io</a></footer>
 </body>
 </html>
